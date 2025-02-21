@@ -31,6 +31,13 @@ imc4 = 100 / (1.83 * 1.83)
 linha4 = f'{nome4} tem {altura4} de altura, além disso o indivído possui um IMC de {imc4:.2f}'
 print (linha4)
 
+nome4 = 'Gabriel'
+altura4 = 1.83
+peso4 = 100
+imc4 = 100 / (1.83 * 1.83)
+linha4 = f'{nome4} tem {altura4} de altura, além disso o indivído possui um IMC de {imc4:.2f}'
+print (linha4)
+
 
 # Renan Gabriel Pereira Baptista
 # Pesa 82 e seu IMC é 27.08
