@@ -37,23 +37,34 @@ else:
 #Exercicio dois
 
 
-horario = input('Digite um horário (0-23): ')
-horario_int = int(horario)
-DIA_INTEIRO = horario_int < 0 or horario_int > 24
-INICIO_DO_DIA = 0
-BOM_DIA = 11
-BOA_TARDE = 18
+'''horario = input('Digite um horário (0-23): ') 
+horario_int = float(horario) 
 
 if horario.isdigit(): 
-    if DIA_INTEIRO:
+    if horario_int < 0 or horario_int > 24:
         print('Horário inválido')
     else:
-        if horario_int < BOM_DIA:
+        if horario_int < 12:
             print('Bom dia')
-        elif horario_int < BOA_TARDE:
+        elif horario_int < 18:
             print('Boa tarde')
         else:
-            print('Boa noite') 
+            print('Boa noite') '''
 
 
 #exercicio tres
+
+
+nome = input('Digite seu nome: ').strip()
+n_letras = len(nome)
+
+if n_letras == 0:
+    print('Você não digitou nada')
+elif n_letras <= 1:
+    print('Digite mais que uma letra por favor')
+elif 1 < n_letras <= 4:
+    print(f'Seu nome tem', n_letras, 'letras e é curto') 
+elif 4 < n_letras <= 6:
+    print(f'Seu nome tem', n_letras, 'letras e é normal')
+else: 
+    print(f'Seu nome tem', n_letras, 'letras e é grande')
