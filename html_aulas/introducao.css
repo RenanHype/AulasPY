@@ -1,22 +1,73 @@
-h1 {
-  color: red;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 45px;
-  font-style: italic;
-  text-transform: capitalize;
-  text-align: left;
+body {
+  background-color: rgb(153, 166, 203);
+}
 
+h1 {
+  color: red; 
+  /*adiciona uma cor desejada, rgb = fff -> /f00/0f0/00f*/
+  font-family: Arial, Helvetica, sans-serif; 
+  /*Significa a fonte desejada e caso nao for suportada pelo navegador
+  vai carregar a proxima fonte desejada igual acima */
+  font-size: 35px; 
+  /*Significa o tamanho desejado da fonte*/
+  font-style: italic; 
+  /*Significa o stilo desejado da fonte*/
+  text-transform: uppercase; 
+  /*transforma o texto em maiusculo, inicial maisculo entre outros*/
+  text-align: left; 
+  /*alinha o texto conforme desejado podendo ser o alinhamento na
+  esquerda, direita ou centro da pagina*/
 }
 
 h2 {
-  font-size: 45px;
-  font-style: oblique;
-  text-transform: lowercase;
-  text-align: right;
-  
+  font-size: 35px; 
+  /*Significa o tamanho desejado da fonte*/
+  font-style: oblique; 
+  /*Significa o stilo desejado da fonte*/
+  text-transform: lowercase; 
+  /*transforma o texto em maiusculo, inicial maisculo entre outros*/
+  text-align: right; 
+  /*alinha o texto conforme desejado podendo ser o alinhamento na
+  esquerda, direita ou centro da pagina*/
+  text-decoration: overline; 
+  /*decora o texto com algo, tipo, adiciona underline, uma linha
+  no meio do texto ou acima..*/
 }
 
 h3 {
-  font-size: 45px;
-  text-transform: center;
+  font-size: 35px; 
+  /*Significa o tamanho desejado da fonte*/
+  text-transform: center; 
+  /*transforma o texto em maiusculo, inicial maisculo entre outros*/
+  text-decoration: underline; 
+  /*decora o texto com algo, tipo, adiciona underline, uma linha
+  no meio do texto ou acima..*/
+  background-color:gold;
+  font-weight: normal, bold;
+  /* define se voce quer tirar o negrito do texto que ja vem padrao
+  ou deixar normal, dentre outros */
   }
+
+p {
+  color: none; 
+  /*adiciona uma cor desejada, rgb = fff -> /f00/0f0/00f*/
+  font-size: 24px; 
+  /*Significa o tamanho desejado da fonte*/
+  text-align: left; 
+  /*alinha o texto conforme desejado podendo ser o alinhamento na
+  esquerda, direita ou centro da pagina*/
+  text-indent: 10px; 
+  /*adiciona um espaço no inicio do texto*/
+  font-variant: small-caps; 
+  /*deixa o texto com caps em tudo maisculo,porem, tudo o que for
+  maisculo realmente no html ficara maior mas a principio serve 
+  para variar a fonte*/
+}
+
+a { 
+  text-decoration: none;
+  /* esse codigo eliminou o sublinhado do link digitado, pode ser
+  adicionado novamente o sublinhado com o comando underline */
+  font-variant: normal;
+}
+
